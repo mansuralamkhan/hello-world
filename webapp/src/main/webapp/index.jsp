@@ -1,39 +1,53 @@
-<form action="action_page.php">
-  <div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <section id="hero">
+        <div class="hero-background" style="background-image: url('background.jpg');"></div>
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a Web Developer, Programmer, and Photographer.</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
-    <h1>This is first commite</h1>
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="web-development.jpg" alt="Web Development Project">
+                <h3>Web Development</h3>
+                <p>Check out my latest web development projects <a href="#">here</a>.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="programming.jpg" alt="Programming Project">
+                <h3>Programming</h3>
+                <p>Explore my coding projects <a href="#">here</a>.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="photography.jpg" alt="Photography Work">
+                <h3>Photography</h3>
+                <p>View my photography portfolio <a href="#">here</a>.</p>
+            </div>
+        </div>
+    </section>
 
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me. You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+        </div>
+    </section>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
