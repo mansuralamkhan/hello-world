@@ -11,7 +11,7 @@
         <div class="hero-background" style="background-image: url('background.jpg');"></div>
         <div class="hero-content">
             <h1>Welcome to My Portfolio</h1>
-            <p>I'm a Web Developer, Programmer, and Photographer.</p>
+            <p>I'm a going CRAZYYYYYYY.</p>
             <a href="#portfolio" class="cta-button">View My Work</a>
         </div>
     </section>
