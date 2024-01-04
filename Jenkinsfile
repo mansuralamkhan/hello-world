@@ -2,14 +2,14 @@ pipeline {
     agent {
         label 'maven'
     }
+environment {
+    PATH = "/opt/apache-maven-3.9.6/bin:$PATH"
+}
 
     stages {
-        stage('Clone Git Code') {
+        stage('Build') {
             steps {
-                script {
-                    
-                   echo "Hello World"
-                }
+                sh 'mvd clean deploy'
             }
         }
     }
