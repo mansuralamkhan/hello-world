@@ -9,7 +9,7 @@ environment {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clen deploy'
+                sh './mvn clean deploy'
             }
         }
     }
